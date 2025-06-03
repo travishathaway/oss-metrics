@@ -1,0 +1,10 @@
+[project]
+authors = [{name = "Travis Hathaway", email = "travis.j.hathaway@gmail.com"}]
+description = "A template for Python CLI applications."
+name = "oss-metrics"
+readme = "README.md"
+requires-python = ">=3.13"
+version = "0.1.0"
+
+[project.scripts]
+ossm = "oss_metrics.cli:main"

@@ -1,0 +1,6 @@
+name: oss-metrics
+channels:
+  - conda-forge
+dependencies:
+  - pytest
+  - pre-commit

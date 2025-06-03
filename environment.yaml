@@ -1,0 +1,16 @@
+name: oss-metrics
+channels:
+  - conda-forge
+dependencies:
+  - click
+  - python=3.13
+  - panel>=1.7.0
+  - bokeh>=3.7.3
+  - hvplot
+  - fastparquet
+  - pandas
+  - numpy
+  - click-help-colors
+  - requests
+  - pygithub
+  - rich
