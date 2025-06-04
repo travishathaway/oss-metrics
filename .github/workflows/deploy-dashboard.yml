@@ -17,6 +17,7 @@ jobs:
         with:
           miniconda-version: "latest"
           activate-environment: "oss-metrics"
+          auto-activate-base: false
           environment-file: "environment.yaml"
 
       - name: Install CLI tool (ossm)
