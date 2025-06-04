@@ -8,6 +8,7 @@ from collections.abc import Sequence
 
 import panel as pn
 import pandas as pd
+import hvplot.pandas  # noqa: F401
 
 from .types import RowTypes
 
