@@ -12,15 +12,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@v3
         with:
-          python-version: '3.13'
+          miniconda-version: "latest"
+          activate-environment: oss-metrics
+          environment-file: environment.yaml
 
-      - name: Install dependencies
+      - name: Install CLI tool (ossm)
         run: |
-          conda env create -f environment.yaml
-          conda activate oss-metrics
           pip install -e .
 
       - name: Generate dashboard HTML
