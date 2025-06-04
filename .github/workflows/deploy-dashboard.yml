@@ -18,10 +18,10 @@ jobs:
           miniconda-version: "latest"
           activate-environment: oss-metrics
           environment-file: environment.yaml
-          python-version: "3.13"
 
       - name: Install CLI tool (ossm)
         run: |
+          conda activate oss-metrics
           pip install -e .
 
       - name: Generate dashboard HTML
