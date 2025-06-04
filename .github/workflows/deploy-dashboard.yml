@@ -28,7 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          conda run --name oss-metrics ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output index.html
+          conda run --name oss-metrics ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output metrics.json
+          conda run --name oss-metrics ossm -v build metrics.json --output index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
