@@ -16,8 +16,8 @@ jobs:
         uses: conda-incubator/setup-miniconda@v3
         with:
           miniconda-version: "latest"
-          activate-environment: oss-metrics
-          environment-file: environment.yaml
+          activate-environment: "oss-metrics"
+          environment-file: "environment.yaml"
 
       - name: Install CLI tool (ossm)
         run: |
