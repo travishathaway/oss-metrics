@@ -4,51 +4,21 @@ Contains the logic for fetching and processing GitHub metrics.
 
 from __future__ import annotations
 
-import os
 import json
 import logging
 import time
 from collections.abc import Sequence
-from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from string import Template
 from typing import Literal
 
 from github import Github, GithubException
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+from .constants import GITHUB_TOKEN
+from .types import RowTypes, MetricsRow
 
 logger = logging.getLogger(__name__)
 
-
-@dataclass(frozen=True, slots=True)
-class MetricsRow:
-    """
-    Represents a row of metrics data.
-    """
-
-    repository: str
-    org: str
-    count: int
-    date: datetime
-
-    def to_json(self) -> dict[str, str | int]:
-        """
-        Converts the row to a JSON serializable dictionary.
-
-        :return: dict
-        """
-        return {
-            "repository": self.repository,
-            "org": self.org,
-            "count": self.count,
-            "date": self.date.isoformat(),
-        }
-
-
-RowTypes = Literal[
-    "new_issues", "open_issues", "open_pull_requests", "closed_pull_requests"
-]
 
 QUERY_TEMPLATES: dict[Literal, tuple[Template, ...]] = {
     "new_issues": (Template("repo:$org/$repo_name is:issue created:$start..$end"),),
