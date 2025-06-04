@@ -21,9 +21,7 @@ jobs:
 
       - name: Install CLI tool (ossm)
         run: |
-          conda info
-          conda list
-          python --version
+          conda info --envs
           pip install -e .
 
       - name: Generate dashboard HTML
