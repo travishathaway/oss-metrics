@@ -22,14 +22,13 @@ jobs:
 
       - name: Install CLI tool (ossm)
         run: |
-          conda info --envs
-          pip install -e .
+          conda run --name oss-metrics pip install -e .
 
       - name: Generate dashboard HTML
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          ossm collect -v --backlog-weeks=52 ${{ vars.REPOSITORIES }}
+          conda run --name oss-metrics ossm collect -v --backlog-weeks=52 ${{ vars.REPOSITORIES }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
