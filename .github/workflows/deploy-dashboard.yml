@@ -8,6 +8,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash -el {0}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,16 +31,19 @@ jobs:
 
       - name: Generate dashboard HTML
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          conda run --name oss-metrics ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output metrics.json
-          conda run --name oss-metrics ossm -v build metrics.json --output index.html
+          mkdir -p public
+          git fetch origin gh-pages
+          git checkout origin/gh-pages -- public/metrics.json
+          ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output public/metrics.json
+          ossm -v build public/metrics.json --output public/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./public
           publish_branch: gh-pages
           keep_files: true
           force_orphan: true
