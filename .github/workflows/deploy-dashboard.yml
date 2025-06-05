@@ -33,17 +33,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p public
+          mkdir -p docs
           git fetch origin gh-pages
-          git checkout origin/gh-pages -- public/metrics.json
-          ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output public/metrics.json
-          ossm -v build public/metrics.json --output public/index.html
+
+          # Grab the existing docs/metrics.json so we can append to it
+          git checkout origin/gh-pages -- docs/metrics.json
+
+          ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output docs/metrics.json
+          ossm -v build docs/metrics.json --output docs/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./docs
           publish_branch: gh-pages
           keep_files: true
           force_orphan: true
