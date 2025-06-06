@@ -35,20 +35,21 @@ jobs:
         run: |
           # TODO: It would be nice if this action could attempt to create the
           #       `docs/metrics.json` file if it doesn't exist in the "gh-pages" branch.
-          mkdir -p docs
+          mkdir -p build
           git fetch origin gh-pages
 
-          # Grab the existing docs/metrics.json so we can append to it
-          git checkout origin/gh-pages -- docs/metrics.json
+          # Grab the existing metrics.json so we can append to it
+          git checkout origin/gh-pages -- metrics.json
+          mv metrics.json build/metrics.json
 
-          ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output docs/metrics.json
-          ossm -v build docs/metrics.json --output docs/index.html
+          ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output build/metrics.json
+          ossm -v build docs/metrics.json --output build/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./build
           publish_branch: gh-pages
           keep_files: true
           force_orphan: true
