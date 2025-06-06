@@ -43,7 +43,7 @@ jobs:
           mv metrics.json build/metrics.json
 
           ossm -v collect --backlog-weeks=${{ vars.BACKLOG_WEEKS }} ${{ vars.REPOSITORIES }} --output build/metrics.json
-          ossm -v build docs/metrics.json --output build/index.html
+          ossm -v build build/metrics.json --output build/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
