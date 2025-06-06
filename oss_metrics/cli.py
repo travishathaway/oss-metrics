@@ -1,5 +1,6 @@
 import json
 import logging
+import sys
 
 import click
 from click_help_colors import HelpColorsGroup, HelpColorsCommand
@@ -65,12 +66,15 @@ def collect(ctx, repositories, backlog_weeks, output):
     help="Output HTML file.",
 )
 def build(metrics_file, output):
-    """Builds a metrics dashboard and renders it as a HTML file."""
+    """
+    Builds a metrics dashboard and renders it as a HTML file.
+    """
     try:
         with open(metrics_file, "r") as f:
             data = json.load(f)
     except (json.JSONDecodeError, OSError) as e:
         click.echo(f"Error reading metrics file: {e}", err=True)
+        sys.exit(1)
 
     if data:
         create_dashboard(data, output=output)

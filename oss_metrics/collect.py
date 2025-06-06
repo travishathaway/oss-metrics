@@ -74,6 +74,8 @@ class MetricsWriter:
         """
         Opens the file and loads the data.
 
+        TODO: Handle the case when the JSON file does not match the expected structure.
+
         :return: file object
         """
         try:

@@ -48,17 +48,19 @@ def create_dashboard(
         df["project"] = df["org"] + "/" + df["repository"]
 
         @pn.depends(project=project_select)
-        def line_chart(project):
+        def line_chart(project) -> pn.Row:
             filtered = df[df["project"] == project]
             grouped = filtered.groupby("date")["count"].sum().reset_index()
-            return grouped.hvplot.line(
-                x="date",
-                y="count",
-                value_labels={"count": "Count", "date": "Date"},
-                title=title,
-                width=800,
-                height=400,
-                shared_axes=False,
+            return pn.Row(
+                grouped.hvplot.line(
+                    x="date",
+                    y="count",
+                    xlabel="Date",
+                    ylabel="Count",
+                    title=title,
+                    shared_axes=False,
+                ),
+                sizing_mode="stretch_width",
             )
 
         return line_chart
@@ -66,9 +68,10 @@ def create_dashboard(
     charts = [get_line_chart(metrics_data, chart) for chart in metrics_data.keys()]
 
     dashboard = pn.Column(
-        pn.pane.Markdown("# GitHub Metrics Dashboard"),
+        pn.pane.Markdown("# GitHub Metrics Dashboard", sizing_mode="stretch_width"),
         project_select,
         *charts,
+        sizing_mode="stretch_width",
     )
 
     if output:

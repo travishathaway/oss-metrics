@@ -33,6 +33,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # TODO: It would be nice if this action could attempt to create the
+          #       `docs/metrics.json` file if it doesn't exist in the "gh-pages" branch.
           mkdir -p docs
           git fetch origin gh-pages
 
