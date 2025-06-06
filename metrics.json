@@ -1,0 +1,1018 @@
+{
+    "new_issues": [
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 44,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 14,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 37,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 13,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 34,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 12,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 38,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 12,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 46,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 11,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 52,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 10,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 50,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 11,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 6,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 40,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 13,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 37,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 13,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 31,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 12,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 41,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 12,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 46,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 11,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 52,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 10,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 52,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 11,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 8,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        }
+    ],
+    "open_issues": [
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 530,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 214,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 29,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 527,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 213,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 526,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 215,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 530,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 212,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 535,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 214,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 31,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 539,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 211,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 31,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 543,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 210,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 33,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 529,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 215,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 29,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 527,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 213,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 526,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 214,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 531,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 211,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 27,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 537,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 214,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 31,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 543,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 211,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 31,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 545,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 212,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        }
+    ],
+    "open_pull_requests": [
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 89,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 39,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 80,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 39,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 79,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 41,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 75,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 75,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 73,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 3,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 75,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 90,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 39,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 82,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 40,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 82,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 40,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 74,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 2,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 73,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 3,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 75,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 3,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 75,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 35,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 4,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        }
+    ],
+    "closed_pull_requests": [
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 24,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 34,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 8,
+            "date": "2025-04-24T08:49:59.645243+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 34,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 26,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 8,
+            "date": "2025-05-01T08:50:08.211309+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 39,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 19,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-08T08:51:02.475606+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 59,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 23,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 6,
+            "date": "2025-05-15T08:51:10.639375+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 67,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 16,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-22T08:52:06.073931+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 62,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 21,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-29T08:52:14.308053+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 55,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 21,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-06-05T08:53:10.431417+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 28,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 34,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 8,
+            "date": "2025-04-25T14:33:07.494415+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 37,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 24,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-02T14:33:16.516917+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 40,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 21,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-09T14:34:11.014910+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 57,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 23,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-16T14:34:19.828060+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 64,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 17,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-23T14:35:14.558710+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 58,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 21,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 7,
+            "date": "2025-05-30T14:35:23.273665+00:00"
+        },
+        {
+            "repository": "conda",
+            "org": "conda",
+            "count": 58,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "conda-build",
+            "org": "conda",
+            "count": 21,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        },
+        {
+            "repository": "constructor",
+            "org": "conda",
+            "count": 6,
+            "date": "2025-06-06T14:36:18.422951+00:00"
+        }
+    ]
+}
